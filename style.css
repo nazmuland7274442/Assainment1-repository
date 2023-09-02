@@ -5,7 +5,7 @@
 }
 .header-img{
     width: 100%;
-    width: 1600px;
+    /* width: 1600px; */
     height: 808px;
 }
 .header-writting{
@@ -111,4 +111,77 @@
     color: var(--dark-03, #737272);
    width: 177px;
    height: 20px;
+}
+/* footer */
+.wathch-image{
+    /* background-image: gradient1.png; */
+    width: 1140px;
+    height: 300px;
+   border-radius: 8px;
+   margin: 230px 230px;
+   background-image: watch.png;
+   /* background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%); */
+}
+.watch-image-title{
+    width: 459px;
+    color: #100202;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.wathch-image-btn{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+}
+
+/* fotter last part */
+.footer{
+    background-color: #151414;
+    color: #FFF;
+    /* width: 1600px; */
+    height: 577px;
+    display: flex;
+    gap: 335px;
+}
+.footer-detels{
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-bottom: 10px;
+
+}
+.footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    width: 150px;
+    height: 50px;
+   
+   
+}
+.footer-description{
+     color: #FFF;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      width: 485px;
+}
+.footer2{
+    /* display: flex; */
+}
+.footer2-title{
+    color: #FFF;
+font-size: 25px;
+padding-top: 130px;
+}
+.footer2-email{
+    border: solid;
+    width: 200px;
+    height: 30px;
+    padding: 25px 100px 20px 20px;
+}
+.email{
+    border: none;
+    color: var(--Dark-07, #F3F3F3);
+font-size: 18px;
 }
